@@ -40,8 +40,10 @@ Engineering Reliability: การใช้ Multi-Reference KL และ Clamped
 ผมใช้ python3.10.x
 วิธีใช้งาน
 
-python -m venv .venv
+python -m venv .venv 
+
 source .venv/bin/activate   # Linux/Mac
+
 .venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
