@@ -37,5 +37,15 @@ Decision System vs Detector: เราไม่ได้ใช้แค่ Featu
 Adaptive Nature: การใช้ T_{final} จาก Percentile ทั้งไฟล์ ทำให้ Engine ปรับตัวตามระดับความซับซ้อนของแต่ละเกมได้อัตโนมัติ
 Engineering Reliability: การใช้ Multi-Reference KL และ Clamped/Smoothed Metrics ทำให้ระบบไม่ล่ม (Robust) เมื่อเจอข้อมูลที่ผิดปกติ
 
+ผมใช้ python3.10.x
+วิธีใช้งาน
+
+python -m venv .venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+
+python gui_app.py
 
 *project นี้ใช้ AI เข้ามาร่วมในการช่วยต่างๆและคิดอื่นๆเพื่อประหยัดเวลาของผู้ออกแบบ ถ้ามีเนื้อหาตกหล่นต้องขออภัยด้วย
