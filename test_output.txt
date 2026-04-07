@@ -1,0 +1,84 @@
+test_gpu_acceleration_active (__main__.TestGPUSupport)
+Test if GPU acceleration is active. ... ok
+test_gpu_import (__main__.TestGPUSupport)
+Test GPU module imports. ... ok
+test_apk_analyze_structure (__main__.TestAPKAnalyzer)
+Test APK structure analysis. ... ok
+test_apk_analyzer_init (__main__.TestAPKAnalyzer)
+Test APK analyzer initialization. ... ok
+test_apk_compression_analysis (__main__.TestAPKAnalyzer)
+Test compression structure analysis. ... ok
+test_apk_dex_extraction (__main__.TestAPKAnalyzer)
+Test DEX file extraction. ... ok
+test_apk_from_bytes (__main__.TestAPKAnalyzer)
+Test opening APK from bytes. ... ok
+test_detect_ptrace (__main__.TestAntiCheatDetector)
+Test detection of ptrace anti-debug. ... ok
+test_detector_init (__main__.TestAntiCheatDetector)
+Test detector initialization. ... ok
+test_multiple_signatures (__main__.TestAntiCheatDetector)
+Test detection of multiple anti-cheat mechanisms. ... ok
+test_risk_assessment (__main__.TestAntiCheatDetector)
+Test overall risk assessment. ... ok
+test_context_menu_creation (__main__.TestGUIEnhancements)
+Test context menu widget creation. ... ok
+test_progress_tracker_creation (__main__.TestGUIEnhancements)
+Test progress tracker. ... ok
+test_progress_tracking (__main__.TestGUIEnhancements)
+Test progress tracking functionality. ... ok
+test_binary_parser_import (__main__.TestBinaryParser)
+Test binary parser imports. ... ok
+test_entropy_calculation (__main__.TestBinaryParser)
+Test entropy calculations. ... ok
+test_decompiler_import (__main__.TestDecompilerEngine)
+Test decompiler imports. ... ok
+test_malware_detector_init (__main__.TestEBox512Pipeline)
+Test malware detector initialization. ... ok
+test_pipeline_import (__main__.TestEBox512Pipeline)
+Test pipeline imports. ... ok
+test_app_initialization (__main__.IntegrationTests)
+Test application initialization (headless mode). ... ok
+test_complete_workflow (__main__.IntegrationTests)
+Test complete analysis workflow. ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 2.158s
+
+OK
+
+======================================================================
+  E-BOX 512 RE Tool v3.2 — Comprehensive Test Suite
+======================================================================
+
+[GPU] CuPy GPU acceleration ENABLED
+[OK] GPU acceleration active
+[OK] GPU Available: True
+[OK] APK structure analyzed: 3 files detected
+[OK] APK analyzer initialized
+[OK] Compression analysis: 3 files
+[OK] DEX files extracted: 1 file(s)
+[OK] APK from bytes opened successfully
+[OK] Ptrace detection working: 1 findings
+[OK] Anti-cheat detector initialized
+[OK] Multiple signature detection: 5 mechanisms
+[OK] Risk assessment: HIGH [Obfuscation: 20%]
+[OK] Context menu created successfully
+[OK] Progress tracker initialized
+[OK] Progress tracking: 33% complete, 95% accuracy
+[OK] Binary parser imported successfully
+[OK] Entropy calculation working (uniform: 0.00, random: 8.00)
+[OK] Decompiler engine imported successfully
+[OK] Malware detector initialized
+[OK] E-BOX pipeline imported successfully
+[OK] GUI application initialized (headless)
+[PASS] Binary parsing successful
+[PASS] Anti-cheat detection successful
+[PASS] E-BOX pipeline scan successful
+
+======================================================================
+Tests run: 21
+Passed: 21
+Failed: 0
+Errors: 0
+======================================================================
+

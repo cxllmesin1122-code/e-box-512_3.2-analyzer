@@ -1,0 +1,29 @@
+# E-BOX 512 RE Tool v3.2 — Requirements
+
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Optional GPU acceleration (GTX 850M or compatible)
+cupy-cuda11x>=10.0.0  # Uncomment for NVIDIA GPU support
+
+# Binary analysis
+capstone>=4.0.0
+pyelftools>=0.27
+
+# Compression support
+zstandard>=0.15.0
+lz4>=3.1.0
+
+# UI (tkinter usually included with Python)
+# python-tk  # May be needed on some systems
+
+# Development
+autopep8>=1.6.0
+pytest>=6.2.0
+pytest-cov>=2.12.0
+black>=21.0
+
+# Optional: Performance profiling
+# memory-profiler>=0.58.0
+# line-profiler>=3.3.0
