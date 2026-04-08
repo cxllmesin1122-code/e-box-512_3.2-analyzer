@@ -41,6 +41,8 @@ Decision System vs Detector: เราไม่ได้ใช้แค่ Featu
 Adaptive Nature: การใช้ T_{final} จาก Percentile ทั้งไฟล์ ทำให้ Engine ปรับตัวตามระดับความซับซ้อนของแต่ละเกมได้อัตโนมัติ
 Engineering Reliability: การใช้ Multi-Reference KL และ Clamped/Smoothed Metrics ทำให้ระบบไม่ล่ม (Robust) เมื่อเจอข้อมูลที่ผิดปกติ
 
+เครื่องมือนี้ได้รับการทดสอบมาอยู่ระดับหนึ่ง
+
 ผมใช้ python3.10.x
 วิธีใช้งาน
 
